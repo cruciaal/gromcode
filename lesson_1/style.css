@@ -1,7 +1,8 @@
 [target='_blank'] {
   color: green;
 }
-li {
+ol,
+ul {
   background-color: yellow;
 }
 
@@ -26,5 +27,5 @@ li.new {
 }
 
 .new.posted-today {
-  text-decoration: underline pink;
+  background-color: pink;
 }
