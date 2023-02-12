@@ -1,15 +1,30 @@
-.super-important.highlighted {
+[target='_blank'] {
+  color: green;
+}
+li {
+  background-color: yellow;
+}
+
+footer,
+header {
+  border: 3px dashed blue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 20px;
+}
+
+article.new {
+  font-size: 24px;
+}
+
+li.new {
   background-color: red;
 }
 
-.highlighted,
-.company-data {
-  color: yellow;
-}
-
-li.user-data {
-  font-size: 24px;
-}
-span.user-data {
-  font-size: 10px;
+.new.posted-today {
+  text-decoration: underline pink;
 }
