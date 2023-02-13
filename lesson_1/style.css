@@ -1,4 +1,4 @@
-ul li:not(:last-child) {
+:checked {
   margin-left: 50px;
 }
 
