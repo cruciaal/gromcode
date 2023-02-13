@@ -6,11 +6,17 @@ section.to-be-learned {
   background-color: orange;
   color: green;
 }
-#special1 + li {
+#special1 + li code {
+  background-color: orange;
+}
+ul code {
   background-color: orange;
 }
 
 .to-be-learned h4 > code {
+  background-color: green;
+}
+.to-be-learned li > code {
   background-color: green;
 }
 
