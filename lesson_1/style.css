@@ -1,4 +1,10 @@
 div {
+  border: 3px solid black;
+  padding: 50px;
+  background-color: aqua;
+}
+
+/* div {
   background-color: bisque;
   width: 420px;
   height: 140px;
@@ -9,7 +15,7 @@ div {
   border-left: 20px dashed aqua;
   border-right: 20px solid chartreuse;
   border-bottom: 10px dashed burlywood;
-}
+} */
 
 /* body {
   background: antiquewhite;
