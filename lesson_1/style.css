@@ -1,4 +1,24 @@
-.theory::first-letter {
+ul li:not(:last-child) {
+  margin-left: 50px;
+}
+
+label {
+  text-transform: uppercase;
+}
+#special::first-letter {
+  font-size: 100px;
+  color: green;
+}
+
+h1:hover {
+  color: blue;
+}
+
+a:visited {
+  color: gray;
+}
+
+/* .theory::first-letter {
   font-size: 36px;
   margin-left: 16px;
   color: orange;
@@ -18,7 +38,7 @@ a::before {
 a::after {
   content: '<';
   color: green;
-}
+} */
 
 /* li {
   margin-bottom: 16px;
