@@ -20,7 +20,10 @@ ul code {
   background-color: green;
 }
 
-.already-learned h4 code {
+/* .already-learned h4 code {
+  border: 2px solid blue;
+} */
+#special1 + li code {
   border: 2px solid blue;
 }
 
