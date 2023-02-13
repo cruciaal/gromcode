@@ -1,4 +1,34 @@
-section.already-learned {
+.anchor:link {
+  background-color: black;
+  color: white;
+}
+
+.anchor:visited {
+  background-color: orange;
+  color: green;
+}
+
+a:active {
+  border: 3px solid red;
+}
+.anchor:hover {
+  font-size: 24px;
+}
+button[disabled] {
+  border: 2px dashed grey;
+}
+.some-button:hover:enabled {
+  background-color: grey;
+  color: white;
+}
+.search:focus {
+  background-color: orange;
+}
+.confirm-checkbox:checked {
+  margin-left: 20px;
+}
+
+/* section.already-learned {
   background-color: green;
   color: white;
 }
@@ -23,13 +53,14 @@ ul code {
 /* .already-learned h4 code {
   border: 2px solid blue;
 } */
-#special1 + li code {
+/* #special1 + li code {
   border: 2px solid blue;
 }
 
 #special2 ~ li {
   font-size: 24px;
-}
+} */
+*/
 
 /* section.already-learned + h4 > code {
   background-color: orange;
@@ -120,4 +151,5 @@ ul span {
 #special ~ li {
   margin-left: 16px;
 }
- */
+ */ {
+}
