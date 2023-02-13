@@ -1,4 +1,20 @@
-.anchor:link {
+li {
+  margin-bottom: 16px;
+}
+li:first-child > span {
+  color: white;
+  background-color: red;
+}
+
+li:last-child > span {
+  color: white;
+  background-color: black;
+}
+div > p:nth-child(odd) {
+  background-color: grey;
+}
+
+/* .anchor:link {
   background-color: black;
   color: white;
 }
@@ -26,7 +42,7 @@ button[disabled] {
 }
 .confirm-checkbox:checked {
   margin-left: 20px;
-}
+} */
 
 /* section.already-learned {
   background-color: green;
