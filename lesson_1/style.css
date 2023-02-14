@@ -1,17 +1,43 @@
-div {
-  margin: 50px;
+.container {
 }
-.rect {
+.parent {
+  /* position: relative; */
+}
+.static-parent {
+}
+.tip {
+}
+.child {
+}
+.relative-parent {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.absolute-parent {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.fixed-parent {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+}
+
+/* .rect {
   width: 100px;
   height: 50px;
   background-color: forestgreen;
   border-radius: 16px;
+  margin: 50px;
 }
 .oval {
   width: 100px;
   height: 50px;
   background-color: darkmagenta;
   border-radius: 50%;
+  margin: 75px;
 }
 .circle {
   width: 100px;
@@ -27,7 +53,7 @@ div {
   border: 50px solid transparent;
   border-top-color: brown;
 }
-
+ */
 /* div {
   background-color: bisque;
   width: 420px;
