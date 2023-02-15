@@ -23,6 +23,7 @@ li {
 .nav-item {
 }
 .content {
+  position: relative;
   display: flex;
   /* align-items: center; */
   background-color: beige;
@@ -35,7 +36,6 @@ li {
   background-color: aquamarine;
   left: calc(50% - 200px);
   top: calc(50% - 200px);
-
   position: absolute;
   /* top: 150px; */
 }
