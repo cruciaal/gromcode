@@ -26,10 +26,12 @@ li {
 .navigation {
   margin: 0;
   display: flex;
-  gap: 16px;
-  margin-left: 16px;
+  list-style-type: none;
+  /* gap: 16px; */
+  /* margin-left: 16px; */
 }
 .navigation__item {
+  margin-right: 16px;
 }
 .main {
   display: flex;
