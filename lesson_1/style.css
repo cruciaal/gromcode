@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 li {
@@ -48,9 +48,9 @@ button {
   background-color: inherit;
 }
 
-body {
+/* body {
   line-height: 1;
-}
+} */
 
 html,
 body {
