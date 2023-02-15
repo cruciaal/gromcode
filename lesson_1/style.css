@@ -21,21 +21,23 @@ li {
   line-height: 0.5;
 }
 .nav-item {
-  align-items: center;
 }
 .content {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background-color: beige;
   height: 5000px;
+  /* width: calc(100% - 200px); */
 }
 .head {
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  margin: 0 auto;
+  left: calc(50%);
+  top: calc(50%);
+
   position: relative;
-  top: 150px;
+  /* top: 150px; */
 }
 .ear {
   background-color: brown;
