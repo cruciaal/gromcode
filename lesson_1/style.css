@@ -103,7 +103,6 @@ li {
   display: flex;
 }
 .dashboard {
-  box-sizing: content-box;
   display: flex;
   flex-grow: 1;
   background-color: pink;
