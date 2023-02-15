@@ -125,11 +125,10 @@ h2 {
 .list {
   list-style-type: none;
   line-height: 40px;
-  display: flex;
-  flex-direction: column;
+  margin-left: 16px;
 }
 .item__link {
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 .footer {
   height: 40px;
