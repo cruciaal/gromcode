@@ -24,10 +24,8 @@ li {
 .nav-item {
 }
 .content {
-  position: relative;
-  display: flex;
-  background-color: beige;
   height: 5000px;
+  background-color: beige;
 }
 .head {
   width: 200px;
@@ -72,6 +70,81 @@ li {
   top: 80px;
   right: 40px;
 }
+
+/* li {
+  list-style: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkturquoise;
+  height: 40px;
+  z-index: 50;
+}
+
+.navigation {
+}
+
+.nav-list {
+  margin-left: 16px;
+  display: flex;
+  gap: 16px;
+  color: white;
+  line-height: 0.5;
+}
+.nav-item {
+}
+.content {
+  /* position: relative;
+  display: flex; */
+/* background-color: beige;
+  height: 5000px;
+}
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  position: absolute;
+}
+.ear {
+  background-color: brown;
+}
+.ear_right {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  top: -60px;
+  right: -40px;
+}
+.ear_left {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  top: -60px;
+  left: -40px;
+}
+.eye {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  position: relative;
+}
+.eye_right {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+.eye_left {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+} */
+*/
 
 /* .header {
   height: 50px;
