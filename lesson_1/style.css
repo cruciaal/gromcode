@@ -1,24 +1,17 @@
-body {
+h1 {
+  text-align: center;
+}
+.articles-list {
   display: flex;
+  flex-wrap: wrap;
+  /* flex: 0 0 300px; */
 }
-.block {
-  height: 300px;
-  /* flex-direction: row;
-  flex: 0 1 20%; */
-  flex: 0 1 20%;
+article {
+  flex: 0 0 300px;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
 }
-.block_red {
-  background-color: red;
-}
-.block_green {
-  background-color: green;
-}
-.block_blue {
-  background-color: blue;
-}
-.block_yellow {
-  background-color: yellow;
-}
-.block_black {
-  background-color: black;
-}
+
+/* .article {
+} */
