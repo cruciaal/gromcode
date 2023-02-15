@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 li {
@@ -103,6 +103,7 @@ li {
   display: flex;
 }
 .dashboard {
+  box-sizing: content-box;
   display: flex;
   flex-grow: 1;
   background-color: pink;
